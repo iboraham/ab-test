@@ -3,11 +3,11 @@
 ## Introduction
 A/B testing business case, these are the main steps for completing it:
 
-1. Decide KPI, guardrails (Primary metrics, secondary metrics)
-2. Design: type I, type II error, sample size/duration, what’s your H0 and H1
-3. Set up the experiment (RTC, Randomization algorithm)
-4. Measure & Compare (Sanity Check, Novelty Effect)
-5. Recommend actions
+1. Designing our experiment
+2. Collecting and preparing the data
+3. Visualising the results
+4. Testing the hypothesis
+5. Drawing conclusions
 
 ## Resources
 1. https://towardsdatascience.com/python-code-from-hypothesis-test-to-online-experiments-with-buiness-cases-e0597c6d1ec
