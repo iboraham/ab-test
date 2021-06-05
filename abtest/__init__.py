@@ -79,10 +79,10 @@ class Experiment:
         (lower_con, lower_treat), (upper_con, upper_treat) = proportion_confint(
             successes, nobs=nobs, alpha=0.05
         )
-        print(f"z statistic: {z_stat:.2f}")
-        print(f"p-value: {pval:.3f}")
-        print(f"ci 95% for control group: [{lower_con:.3f}, {upper_con:.3f}]")
-        print(f"ci 95% for treatment group: [{lower_treat:.3f}, {upper_treat:.3f}]")
+        self.lower_con = lower_con
+        self.upper_con = upper_con
+        self.lower_treat = lower_treat
+        self.upper_treat = upper_treat
         self.z_stat = z_stat
         self.pval = pval
 
