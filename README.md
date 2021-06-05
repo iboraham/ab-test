@@ -9,6 +9,8 @@ A/B testing business case, these are the main steps for completing it:
 4. Testing the hypothesis
 5. Drawing conclusions
 
+[Example notebook](https://github.com/iboraham/ab-test-project/blob/master/notebooks/example.ipynb)
+
 ## Resources
 1. https://towardsdatascience.com/python-code-from-hypothesis-test-to-online-experiments-with-buiness-cases-e0597c6d1ec
 
