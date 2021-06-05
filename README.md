@@ -1,19 +1,65 @@
-# A/B Test Project
+<h1 align="center">Welcome to ab-test 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/iboraham/ab-test/blob/master/README.md" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <img src='https://bettercodehub.com/edge/badge/iboraham/ab-test?branch=master'>
+  <a href="https://opensource.org/licenses/MIT" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <a href="https://lgtm.com/projects/g/iboraham/ab-test/alerts/"><img alt="Total alerts" src="https://img.shields.io/lgtm/alerts/g/iboraham/ab-test.svg?logo=lgtm&logoWidth=18"/></a>
+  <a href="https://lgtm.com/projects/g/iboraham/ab-test/context:python"><img alt="Language grade: Python" src="https://img.shields.io/lgtm/grade/python/g/iboraham/ab-test.svg?logo=lgtm&logoWidth=18"/></a>
+  <a href="https://twitter.com/iboraham" target="_blank">
+    <img alt="Twitter: iboraham" src="https://img.shields.io/twitter/follow/iboraham.svg?style=social" />
+  </a>
+</p>
 
-## Introduction
-A/B testing business case, these are the main steps for completing it:
+> A/B testing framework for python
 
-1. Designing our experiment
-2. Collecting and preparing the data
-3. Visualising the results
-4. Testing the hypothesis
-5. Drawing conclusions
+### 🏠 [Homepage](https://github.com/iboraham/ab-test)
 
-[Example notebook](https://github.com/iboraham/ab-test-project/blob/master/notebooks/example.ipynb)
+## Install
 
-## Resources
-1. https://towardsdatascience.com/python-code-from-hypothesis-test-to-online-experiments-with-buiness-cases-e0597c6d1ec
+```sh
+pip install ab-test
+```
 
-2. Improving Library User Experience with A/B Testing: Principles and Process https://doi.org/10.3998/weave.12535642.0001.101 
+## Usage
 
-3. https://medium.com/@RenatoFillinich/ab-testing-with-python-e5964dd66143
+```sh
+import abtest
+
+experiment = abtest.Experiment(data)
+experiment.fit("two-tailed", confidence_level=0.95, power=.8, before_eff=0.09, after_eff=0.12)
+```
+
+## Author
+
+👤 **I.Onur Serbetci**
+
+- Website: www.iboraham.github.io
+- Twitter: [@iboraham](https://twitter.com/iboraham)
+- Github: [@iboraham](https://github.com/iboraham)
+- LinkedIn: [@ionur-serbetci](https://linkedin.com/in/ionur-serbetci)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/iboraham/ab-test/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+<a href="https://www.patreon.com/iboraham">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
+
+## 📝 License
+
+Copyright © 2021 [I.Onur Serbetci](https://github.com/iboraham).<br />
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+
+---
+
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
