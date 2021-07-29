@@ -28,10 +28,17 @@ pip install ab-test
 ## Usage
 
 ```sh
-import abtest
+>> import abtest
 
-experiment = abtest.Experiment(data)
-experiment.fit("two-tailed", confidence_level=0.95, power=.8, before_eff=0.09, after_eff=0.12)
+>> experiment = abtest.Experiment(data)
+>> experiment.fit("two-tailed", confidence_level=0.95, power=.8, before_eff=0.09, after_eff=0.12)
+
+"""
+z statistic: -2.68
+p-value: 0.007
+ci 95% for control group: [0.086, 0.116]
+ci 95% for treatment group: [0.115, 0.148]
+"""
 ```
 
 ## Author
