@@ -4,6 +4,7 @@
   <a href="https://github.com/iboraham/ab-test/blob/master/README.md" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
+  <a href="https://pepy.tech/project/ab-test"><img src="https://pepy.tech/badge/ab-test" alt="Downloads"></a>
   <img src='https://bettercodehub.com/edge/badge/iboraham/ab-test?branch=master'>
   <a href="https://opensource.org/licenses/MIT" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
@@ -16,7 +17,6 @@
   <a href="https://twitter.com/iboraham" target="_blank">
     <img alt="Twitter: iboraham" src="https://img.shields.io/twitter/follow/iboraham.svg?style=social" />
   </a>
-  <a href="https://pepy.tech/project/ab-test"><img src="https://pepy.tech/badge/ab-test" alt="Downloads"></a>
 </p>
 
 > A/B testing framework for python
