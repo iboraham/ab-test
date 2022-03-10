@@ -26,12 +26,12 @@
 ## Install
 
 ```sh
-pip install ab-test
+>> pip install ab-test
 ```
 
 ## Usage
 
-```sh
+```python
 >> import abtest
 
 >> experiment = abtest.Experiment(data)
